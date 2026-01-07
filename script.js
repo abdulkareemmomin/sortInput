@@ -54,51 +54,51 @@ function sortTheNumbers() {
 
 }
 
-function copySorted() {
-    const copiedText = document.getElementById("sorted").innerText;
-    if (!copiedText.trim()) {
-        alert("Nothing to copy");
-        return;
-    }
+// function copySorted() {
+//     const copiedText = document.getElementById("sorted").innerText;
+//     if (!copiedText.trim()) {
+//         alert("Nothing to copy");
+//         return;
+//     }
 
-    navigator.clipboard.writeText(copiedText)
-        .then(() => {
-            alert("Sorted numbers copied!");
-        })
-        .catch(() => {
-            alert("Copy failed");
-        });
-}
+//     navigator.clipboard.writeText(copiedText)
+//         .then(() => {
+//             alert("Sorted numbers copied!");
+//         })
+//         .catch(() => {
+//             alert("Copy failed");
+//         });
+// }
 
-function copyInput() {
-    const copiedText = document.getElementById("input").innerText;
-    if (!copiedText.trim()) {
-        alert("Nothing to copy");
-        return;
-    }
+// function copyInput() {
+//     const copiedText = document.getElementById("input").innerText;
+//     if (!copiedText.trim()) {
+//         alert("Nothing to copy");
+//         return;
+//     }
 
-    navigator.clipboard.writeText(copiedText)
-        .then(() => {
-            alert("Input numbers copied!");
-        })
-        .catch(() => {
-            alert("Copy failed");
-        });
-}
+//     navigator.clipboard.writeText(copiedText)
+//         .then(() => {
+//             alert("Input numbers copied!");
+//         })
+//         .catch(() => {
+//             alert("Copy failed");
+//         });
+// }
 
 
-function copyFrequency() {
-    const copiedText = document.getElementById("frequency").innerText;
-    if (!copiedText.trim()) {
-        alert("Nothing to copy");
-        return;
-    }
+// function copyFrequency() {
+//     const copiedText = document.getElementById("frequency").innerText;
+//     if (!copiedText.trim()) {
+//         alert("Nothing to copy");
+//         return;
+//     }
 
-    navigator.clipboard.writeText(copiedText)
-        .then(() => {
-            alert("Frequency of numbers copied!");
-        })
-        .catch(() => {
-            alert("Copy failed");
-        });
-}
+//     navigator.clipboard.writeText(copiedText)
+//         .then(() => {
+//             alert("Frequency of numbers copied!");
+//         })
+//         .catch(() => {
+//             alert("Copy failed");
+//         });
+// }
