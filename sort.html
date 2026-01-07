@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="numberContainer">
+            <h3 style="text-align: center;">Sort the numbers</h3>
+            <div>
+                <label for="numbers">Enter numbers to sort space saperated</label>
+            </div>
+            <div>
+                <input type="text" name="numbers" id="numbers" placeholder="  Example 4 2 6 7 1">
+            </div>
+            <button onclick="sortTheNumbers()" id="sortButton">Sort </button>
+        </div>
+
+        <div id="result" style="display: none;">
+            <div id="inputBox">
+                <h4>Input</h4>
+                <button class="copyButton" onclick="copyInput()">Copy</button>
+                <div id="input"></div>
+            </div>
+
+            <div id="sortedBox">
+                <h4>Sorted</h4>
+                <button class="copyButton" onclick="copySorted()">Copy</button>
+                <div id="sorted"></div>
+            </div>
+
+            <div id="frequencyBox">
+                <h4>Frequency</h4>
+                <button class="copyButton" onclick="copyFrequency()">Copy</button>
+                <div id="frequency"></div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

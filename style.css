@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+#numberContainer {
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+
+    /* box-shadow: 10px 10px 10px 10px #f72c2c00; */
+
+}
+
+div>label {
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+#numbers {
+    width: 400px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: none;
+}
+
+#sortButton {
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    background-color: #fc42a9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#sortButton:hover {
+    background-color: #bd0068;
+    box-shadow: 5px 5px 20px rgba(196, 20, 20, 0.397);
+
+}
+
+#result {
+    border: 1px solid black;   
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 500px;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#input,
+#sorted,
+#frequency {
+    width: 240px;
+    min-height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+/* Copy button */
+.copyButton {
+    margin-top: 10px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.copyButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(24, 90, 157, 0.4);
+}
